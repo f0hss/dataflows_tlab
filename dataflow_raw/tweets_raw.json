@@ -1,0 +1,62 @@
+[
+    {
+        "name": "tweetId",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Clé primaire du tweet"
+    },
+    {
+        "name": "textContent",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Contenu textuel du tweet"
+    },
+    {
+        "name": "mediaContent",
+        "type": "STRING",
+        "mode" : "NULLABLE",
+        "description" : "URL du média associé au tweet s'il existe"
+    },
+    {
+        "name": "tweetDate",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Date d'ajout du tweet"
+    },
+    {
+        "name": "nbLikes",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Nombre de likes du tweet"
+    },
+    {
+        "name": "nbRetweets",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Nombre de retweets du tweet"
+    },
+    {
+        "name": "nbComments",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Nombre de commentaires du tweet"
+    },
+    {
+        "name": "userId",
+        "type": "STRING",
+        "mode" : "REQUIRED",
+        "description" : "Clé étrangère de l'utilisateur associé au tweet"
+    },
+    {
+        "name": "subjectId",
+        "type": "STRING",
+        "mode" : "NULLABLE",
+        "description" : "Clé étrangère du sujet associé au tweet"
+    },
+    {
+        "name": "sentimentAnalisis",
+        "type": "STRING",
+        "mode" : "NULLABLE",
+        "description" : "Labélisation de l'analyse de sentiment du contenu du tweet"
+    }
+]
